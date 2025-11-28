@@ -12,7 +12,6 @@ Developed by **Sanchit Arora (UPES)**.
 
 ## 📑 Table of Contents
 - [Features](#-features)
-- [Screenshots](#-screenshots)
 - [Repository Structure](#-repository-structure)
 - [Installation](#-installation)
 - [How to Run](#-how-to-run)
@@ -55,10 +54,6 @@ Supports 4 dynamic color themes:
 - Displays TOP 5 scores  
 - Automatically sorted  
 
----
-
-## 🖼 Screenshots
-*(Add screenshots to `/docs/screenshots/` and they will display automatically)*
 
 ```
 docs/screenshots/
