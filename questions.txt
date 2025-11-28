@@ -1,0 +1,195 @@
+Which of the following is the correct way to declare an integer variable in C?
+A. int 1var;
+B. int var1;
+C. integer var1;
+D. var1 int;
+B
+What is the output of printf("%d", 5 + 3 * 2); ?
+A. 16
+B. 11
+C. 13
+D. 10
+C
+Which loop is guaranteed to execute at least once?
+A. for loop
+B. while loop
+C. do-while loop
+D. none of the above
+C
+What is the correct way to declare a function that returns an integer?
+A. int func();
+B. func int();
+C. int function;
+D. function int();
+A
+Which of the following correctly declares an array of 10 integers?
+A. int arr[10];
+B. int arr();
+C. arr[10];
+D. array int arr[10];
+A
+Which of the following is used to access members of a struct variable using a pointer?
+A. ptr.member
+B. ptr->member
+C. ptr*:member
+D. ptr.member()
+B
+Which of the following is a valid union declaration?
+A. union data { int x; float y; char z; };
+B. union { int x; float y; char z; } data;
+C. union data { int x, float y, char z; };
+D. Both A and B
+D
+Which function is used to open a file in C?
+A. fopen()
+B. fileopen()
+C. openfile()
+D. fread()
+A
+Which mode is used with fopen() to write data to a file, overwriting it if it exists?
+A. "r"
+B. "w"
+C. "a"
+D. "r+"
+B
+Which of the following is correct syntax to read an integer from a file using fscanf()?
+A. fscanf(fp, "%d", &num);
+B. fscanf(fp, "%d", num);
+C. read(fp, "%d", &num);
+D. read(fp, "%d", num);
+A
+Which of the following is the correct way to declare a pointer to an integer?
+A. int *ptr;
+B. int ptr*;
+C. *int ptr;
+D. ptr int*;
+A
+What is the output of the following code?
+int x = 5;
+printf("%d", x++);
+A. 4
+B. 5
+C. 6
+D. Error
+B
+Which operator is used to get the address of a variable?
+A. *
+B. &
+C. #
+D. %
+B
+Which of the following is true about arrays in C?
+A. Array size can be changed at runtime
+B. Arrays can store multiple data types
+C. Array elements are stored in contiguous memory
+D. Array elements are stored randomly
+C
+Which of the following is the correct way to declare a structure in C?
+A. struct student { int id; char name[20]; };
+B. struct { int id; char name[20]; } student;
+C. Both A and B
+D. None of the above
+C
+How do you access a member of a structure variable?
+A. struct.member
+B. variable->member
+C. variable.member
+D. variable*:member
+C
+Which of the following statements is true about unions?
+A. All members share the same memory location
+B. Each member has separate memory
+C. Unions cannot have more than 2 members
+D. Unions cannot store integers
+A
+Which of the following modes opens a file for appending data at the end without overwriting?
+A. "r"
+B. "w"
+C. "a"
+D. "r+"
+C
+Which function is used to close a file in C?
+A. fclose()
+B. fileclose()
+C. close()
+D. fexit()
+A
+What is the output of the following code?
+union data { int x; char y; };
+union data d;
+d.x = 65;
+printf("%d", d.x);
+A. 65
+B. Garbage
+C. 0
+D. Error
+A
+Which of the following is the correct way to declare a 2D array of integers 3x3?
+A. int arr[3,3];
+B. int arr[3][3];
+C. arr[3][3];
+D. int arr(3)(3);
+B
+What will be the output of printf("%d", sizeof(char)); ?
+A. 1
+B. 2
+C. 4
+D. Depends on compiler
+A
+Which of the following is the correct syntax to declare a constant integer?
+A. int const x;
+B. const int x;
+C. Both A and B
+D. None of the above
+C
+Which of the following is correct to dynamically allocate memory for an integer in C?
+A. int *p = malloc(sizeof(int));
+B. int p = malloc(int);
+C. int *p = alloc(int);
+D. malloc(int* p);
+A
+Which of the following correctly frees dynamically allocated memory in C?
+A. free(pointer);
+B. delete pointer;
+C. release(pointer);
+D. free memory(pointer);
+A
+Which of the following is the correct way to declare a function pointer returning int and taking int as argument?
+A. int (*func)(int);
+B. (*int func)(int);
+C. int func(*int);
+D. int* func(int);
+A
+Which of the following is used to read a line of text from a file in C?
+A. fgets()
+B. gets()
+C. scanf()
+D. fread()
+A
+What will be the output of the following code?
+int a = 10;
+int b = 20;
+printf("%d", a > b ? a : b);
+A. 10
+B. 20
+C. 30
+D. Error
+B
+Which of the following correctly opens a file for reading and writing without truncating it?
+A. "r"
+B. "w"
+C. "r+"
+D. "a+"
+C
+Which of the following is the correct way to declare a pointer to a structure in C?
+A. struct student *ptr;
+B. struct *student ptr;
+C. struct student ptr*;
+D. *struct student ptr;
+A
+Which of the following is true about the relationship between structs and unions in C?
+A. Structs allocate separate memory for each member; unions share memory
+B. Structs and unions always share memory
+C. Both structs and unions allocate separate memory for each member
+D. Unions allocate separate memory for each member; structs share memory
+A
